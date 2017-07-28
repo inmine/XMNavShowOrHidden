@@ -1,10 +1,16 @@
 # XMNavShowOrHidden
 导航栏显示和隐藏
 
+# 导入头文件
+#import "XMNav.h"
 
-# 在控制器父类添加
+需要显示的控制器继承 XMShowNavViewController
+
+需要隐藏的控制器继承 XMHiddenNavViewController
+
+# 原理 ：在控制器父类添加
 // 显示导航栏
-#import "ShowNavViewController.h"
+#import "XMShowNavViewController.h"
 
 - (void)viewWillAppear:(BOOL)animated{
     
@@ -15,11 +21,9 @@
     
     NSLog(@"显示");
 }
-需要显示的控制器继承 ShowNavViewController
-
 
 // 隐藏导航栏
-#import "HiddenNavViewController.h"
+#import "XMHiddenNavViewController.h"
 
 - (void)viewWillAppear:(BOOL)animated{
     
@@ -29,5 +33,5 @@
     
     NSLog(@"隐藏");
 }
-需要隐藏的控制器继承 HiddenNavViewController
+
 
