@@ -1,5 +1,5 @@
 //
-//  HiddenNavViewController.h
+//  XMHiddenNavViewController.h
 //  XMNavShowOrHidden
 //
 //  Created by min on 2017/7/28.
@@ -8,6 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface HiddenNavViewController : UIViewController
+@interface XMHiddenNavViewController : UIViewController
 
 @end

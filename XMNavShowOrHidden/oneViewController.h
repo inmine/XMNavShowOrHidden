@@ -9,6 +9,6 @@
 #import <UIKit/UIKit.h>
 #import "XMNav.h"
 
-@interface oneViewController : HiddenNavViewController
+@interface oneViewController : XMHiddenNavViewController
 
 @end

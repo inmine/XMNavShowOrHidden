@@ -9,7 +9,7 @@
 #import <UIKit/UIKit.h>
 #import "XMNav.h"
 
-@interface ViewController : ShowNavViewController
+@interface ViewController : XMShowNavViewController
 
 
 @end

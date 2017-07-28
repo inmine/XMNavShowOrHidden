@@ -9,6 +9,6 @@
 #import <UIKit/UIKit.h>
 #import "XMNav.h"
 
-@interface fourViewController : ShowNavViewController
+@interface fourViewController : XMShowNavViewController
 
 @end

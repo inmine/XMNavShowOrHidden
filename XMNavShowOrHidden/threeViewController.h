@@ -9,6 +9,6 @@
 #import <UIKit/UIKit.h>
 #import "XMNav.h"
 
-@interface threeViewController : HiddenNavViewController
+@interface threeViewController : XMHiddenNavViewController
 
 @end

@@ -19,8 +19,8 @@
 		39486C031F2AE41700C047B8 /* twoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 39486C021F2AE41700C047B8 /* twoViewController.m */; };
 		39486C061F2AE42300C047B8 /* threeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 39486C051F2AE42300C047B8 /* threeViewController.m */; };
 		39486C091F2AE6E600C047B8 /* fourViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 39486C081F2AE6E600C047B8 /* fourViewController.m */; };
-		39486C0F1F2AE7D300C047B8 /* HiddenNavViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 39486C0C1F2AE7D300C047B8 /* HiddenNavViewController.m */; };
-		39486C101F2AE7D300C047B8 /* ShowNavViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 39486C0E1F2AE7D300C047B8 /* ShowNavViewController.m */; };
+		39486C391F2B033A00C047B8 /* XMHiddenNavViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 39486C351F2B033A00C047B8 /* XMHiddenNavViewController.m */; };
+		39486C3A1F2B033A00C047B8 /* XMShowNavViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 39486C381F2B033A00C047B8 /* XMShowNavViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -65,11 +65,11 @@
 		39486C051F2AE42300C047B8 /* threeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = threeViewController.m; sourceTree = "<group>"; };
 		39486C071F2AE6E600C047B8 /* fourViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = fourViewController.h; sourceTree = "<group>"; };
 		39486C081F2AE6E600C047B8 /* fourViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = fourViewController.m; sourceTree = "<group>"; };
-		39486C0B1F2AE7D300C047B8 /* HiddenNavViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HiddenNavViewController.h; sourceTree = "<group>"; };
-		39486C0C1F2AE7D300C047B8 /* HiddenNavViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HiddenNavViewController.m; sourceTree = "<group>"; };
-		39486C0D1F2AE7D300C047B8 /* ShowNavViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ShowNavViewController.h; sourceTree = "<group>"; };
-		39486C0E1F2AE7D300C047B8 /* ShowNavViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ShowNavViewController.m; sourceTree = "<group>"; };
-		39486C141F2AF13800C047B8 /* XMNav.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XMNav.h; sourceTree = "<group>"; };
+		39486C341F2B033A00C047B8 /* XMHiddenNavViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XMHiddenNavViewController.h; sourceTree = "<group>"; };
+		39486C351F2B033A00C047B8 /* XMHiddenNavViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XMHiddenNavViewController.m; sourceTree = "<group>"; };
+		39486C361F2B033A00C047B8 /* XMNav.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XMNav.h; sourceTree = "<group>"; };
+		39486C371F2B033A00C047B8 /* XMShowNavViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XMShowNavViewController.h; sourceTree = "<group>"; };
+		39486C381F2B033A00C047B8 /* XMShowNavViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XMShowNavViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -120,7 +120,7 @@
 		39486BC41F2AE3B000C047B8 /* XMNavShowOrHidden */ = {
 			isa = PBXGroup;
 			children = (
-				39486C0A1F2AE7D300C047B8 /* NavShowHidden */,
+				39486C331F2B033A00C047B8 /* XMNav */,
 				39486BC81F2AE3B000C047B8 /* AppDelegate.h */,
 				39486BC91F2AE3B000C047B8 /* AppDelegate.m */,
 				39486BCB1F2AE3B000C047B8 /* ViewController.h */,
@@ -168,16 +168,16 @@
 			path = XMNavShowOrHiddenUITests;
 			sourceTree = "<group>";
 		};
-		39486C0A1F2AE7D300C047B8 /* NavShowHidden */ = {
+		39486C331F2B033A00C047B8 /* XMNav */ = {
 			isa = PBXGroup;
 			children = (
-				39486C141F2AF13800C047B8 /* XMNav.h */,
-				39486C0B1F2AE7D300C047B8 /* HiddenNavViewController.h */,
-				39486C0C1F2AE7D300C047B8 /* HiddenNavViewController.m */,
-				39486C0D1F2AE7D300C047B8 /* ShowNavViewController.h */,
-				39486C0E1F2AE7D300C047B8 /* ShowNavViewController.m */,
+				39486C361F2B033A00C047B8 /* XMNav.h */,
+				39486C341F2B033A00C047B8 /* XMHiddenNavViewController.h */,
+				39486C351F2B033A00C047B8 /* XMHiddenNavViewController.m */,
+				39486C371F2B033A00C047B8 /* XMShowNavViewController.h */,
+				39486C381F2B033A00C047B8 /* XMShowNavViewController.m */,
 			);
-			path = NavShowHidden;
+			path = XMNav;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -318,10 +318,10 @@
 			files = (
 				39486C031F2AE41700C047B8 /* twoViewController.m in Sources */,
 				39486BCD1F2AE3B000C047B8 /* ViewController.m in Sources */,
-				39486C101F2AE7D300C047B8 /* ShowNavViewController.m in Sources */,
+				39486C3A1F2B033A00C047B8 /* XMShowNavViewController.m in Sources */,
 				39486BCA1F2AE3B000C047B8 /* AppDelegate.m in Sources */,
+				39486C391F2B033A00C047B8 /* XMHiddenNavViewController.m in Sources */,
 				39486BC71F2AE3B000C047B8 /* main.m in Sources */,
-				39486C0F1F2AE7D300C047B8 /* HiddenNavViewController.m in Sources */,
 				39486C091F2AE6E600C047B8 /* fourViewController.m in Sources */,
 				39486C001F2AE41000C047B8 /* oneViewController.m in Sources */,
 				39486C061F2AE42300C047B8 /* threeViewController.m in Sources */,

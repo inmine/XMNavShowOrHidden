@@ -1,26 +1,27 @@
 //
-//  HiddenNavViewController.m
+//  XMShowNavViewController.m
 //  XMNavShowOrHidden
 //
 //  Created by min on 2017/7/28.
 //  Copyright © 2017年 min. All rights reserved.
 //
 
-#import "HiddenNavViewController.h"
+#import "XMShowNavViewController.h"
 
-@interface HiddenNavViewController ()
+@interface XMShowNavViewController ()
 
 @end
 
-@implementation HiddenNavViewController
+@implementation XMShowNavViewController
 
 - (void)viewWillAppear:(BOOL)animated{
     
     [super viewWillAppear:animated];
     
-    self.navigationController.navigationBarHidden = YES;
+    self.navigationController.navigationBarHidden = NO;
     
-    NSLog(@"隐藏");
+    
+    NSLog(@"显示");
 }
 
 - (void)viewDidLoad {
@@ -28,6 +29,5 @@
     [super viewDidLoad];
     
 }
-
 
 @end
