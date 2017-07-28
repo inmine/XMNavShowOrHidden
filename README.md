@@ -2,7 +2,7 @@
 导航栏显示和隐藏
 
 
-在控制器父类添加
+# 在控制器父类添加
 // 显示导航栏
 #import "ShowNavViewController.h"
 
