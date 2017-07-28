@@ -3,7 +3,9 @@
 
 # 导入头文件
 #import "XMNav.h"
+
 需要显示的控制器继承 ShowNavViewController
+
 需要隐藏的控制器继承 HiddenNavViewController
 
 # 原理 ：在控制器父类添加
