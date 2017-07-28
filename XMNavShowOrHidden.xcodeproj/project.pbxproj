@@ -69,6 +69,7 @@
 		39486C0C1F2AE7D300C047B8 /* HiddenNavViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HiddenNavViewController.m; sourceTree = "<group>"; };
 		39486C0D1F2AE7D300C047B8 /* ShowNavViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ShowNavViewController.h; sourceTree = "<group>"; };
 		39486C0E1F2AE7D300C047B8 /* ShowNavViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ShowNavViewController.m; sourceTree = "<group>"; };
+		39486C141F2AF13800C047B8 /* XMNav.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XMNav.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -170,6 +171,7 @@
 		39486C0A1F2AE7D300C047B8 /* NavShowHidden */ = {
 			isa = PBXGroup;
 			children = (
+				39486C141F2AF13800C047B8 /* XMNav.h */,
 				39486C0B1F2AE7D300C047B8 /* HiddenNavViewController.h */,
 				39486C0C1F2AE7D300C047B8 /* HiddenNavViewController.m */,
 				39486C0D1F2AE7D300C047B8 /* ShowNavViewController.h */,
@@ -560,6 +562,7 @@
 				39486BF11F2AE3B000C047B8 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		39486BF21F2AE3B000C047B8 /* Build configuration list for PBXNativeTarget "XMNavShowOrHiddenTests" */ = {
 			isa = XCConfigurationList;
@@ -568,6 +571,7 @@
 				39486BF41F2AE3B000C047B8 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		39486BF51F2AE3B000C047B8 /* Build configuration list for PBXNativeTarget "XMNavShowOrHiddenUITests" */ = {
 			isa = XCConfigurationList;
@@ -576,6 +580,7 @@
 				39486BF71F2AE3B000C047B8 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

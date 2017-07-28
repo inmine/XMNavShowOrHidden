@@ -7,7 +7,7 @@
 //
 
 #import <UIKit/UIKit.h>
-#import "ShowNavViewController.h"
+#import "XMNav.h"
 
 @interface twoViewController : ShowNavViewController
 
